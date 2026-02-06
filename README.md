@@ -87,3 +87,53 @@ No README do seu repositório, inclua:
 ## 💬 Conclusão
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+
+# PROMPT
+"Crie um MVP de um App de Finanças Pessoais chamado 'FinAI'. O foco total é uma interface de chat minimalista e moderna (estilo Mobile-First) onde o usuário registra gastos conversando.
+Estilo Visual e UX:
+Design: Clean, tons de azul e verde suaves, tipografia moderna.
+Navegação: Bottom bar com 3 ícones: 'Chat' (Home), 'Metas' e 'Relatórios'.
+Interação: A tela principal deve ser uma interface de chat onde o usuário digita (ex: 'Gastei 50 reais em pizza') e a IA responde confirmando o registro e a categoria.
+Funcionalidades Específicas:
+Chat Inteligente: Simule uma interface de chat funcional. Use componentes de 'Cards' dentro do chat para mostrar confirmações de gastos e dicas rápidas de economia do 'Agente Financeiro'.
+Dashboard de Relatórios: Uma tela com um gráfico simples (Shadcn UI ou Recharts) mostrando os gastos por categoria (Alimentação, Transporte, Lazer).
+Metas Financeiras: Uma tela onde o usuário pode criar metas (ex: 'Reserva de Emergência') com uma barra de progresso visual.
+Categorização Automática: No fluxo do chat, mostre uma tag automática de categoria após o usuário inserir um dado.
+Tecnologia e Tom:
+Use React, Tailwind CSS e componentes do Shadcn UI.
+Todo o texto deve ser em Português (Brasil).
+O tom deve ser educativo, acessível e encorajador para iniciantes.
+Apresente primeiro a tela de chat como a experiência central do MVP."
+
+
+
+# LOVABLE
+
+<img width="1915" height="906" alt="image" src="https://github.com/user-attachments/assets/28dd67cd-b835-4210-a298-471e6043dd31" />
+
+<img width="1900" height="902" alt="image" src="https://github.com/user-attachments/assets/5e25a777-bbca-4caf-8390-f9377cc1b873" />
+
+
+# Resumo do Projeto: FinAI
+O FinAI é um assistente de finanças pessoais focado em simplicidade. Em vez de planilhas complexas, o usuário organiza sua vida financeira através de conversas naturais. O app permite registrar gastos via chat, categoriza despesas automaticamente, monitora metas de economia e oferece dicas personalizadas através de um Agente Financeiro inteligente.
+
+
+# Reflexão sobre o Processo
+O que funcionou bem?
+Velocidade de Prototipagem: A transição da ideia (PRD) para uma interface funcional no Lovable foi extremamente rápida.
+
+Interface Intuitiva: O conceito de "Vibe Coding" permitiu criar um fluxo de chat que parece humano e acolhedor, ideal para o público iniciante.
+
+O que não funcionou como o esperado?
+Refinamentos Específicos: Em alguns momentos, a IA interpretou comandos de design de forma genérica, exigindo ajustes manuais e prompts mais detalhados para chegar no visual exato desejado.
+
+Lógica de Dados: A simulação de cálculos complexos em tempo real dentro do protótipo exigiu mais iterações do que a criação visual.
+
+
+# O que aprendi sobre conversar com IAs?
+Contexto é tudo: Aprendi que quanto mais eu descrevo o "sentimento" e o "fluxo" do app, melhor a IA entrega o código.
+
+Iteração Constante: Conversar com a IA não é dar uma ordem única, mas manter um diálogo onde cada resposta dela serve de base para o meu próximo comando (refinamento).
+
+Pensamento Estruturado: Para ser um bom "Vibe Coder", é preciso saber o que quer (o problema) antes de pedir como fazer (a solução).
